@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Allow an example environment file to be committed
+!.env.example
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Test and development files
+.pytest_cache/
+.vscode/
